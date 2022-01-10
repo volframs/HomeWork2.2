@@ -1,11 +1,10 @@
 package pro.sky.java.homeworks.course2.lesson1;
 
-public class Car extends Transport{
+public class Transport {
     private String modelName;
     private int wheelsCount;
 
-    public Car (String modelName, int wheelsCount){
-        super(modelName,wheelsCount);
+    public Transport(String modelName, int wheelsCount) {
         this.modelName=modelName;
         this.wheelsCount=wheelsCount;
     }
@@ -24,13 +23,5 @@ public class Car extends Transport{
 
     public void setWheelsCount(int wheelsCount) {
         this.wheelsCount = wheelsCount;
-    }
-
-    public static void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-    public static void checkEngine() {
-        System.out.println("Проверяем двигатель");
     }
 }
