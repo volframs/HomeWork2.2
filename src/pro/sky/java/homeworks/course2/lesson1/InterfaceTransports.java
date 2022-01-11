@@ -1,6 +1,6 @@
 package pro.sky.java.homeworks.course2.lesson1;
 
-public class ServiceStation implements Interface {
+public class InterfaceTransports implements Interface {
     @Override
     public void checkCar(Car[] car) {
         System.out.println("Корличество машин" + car.length);
